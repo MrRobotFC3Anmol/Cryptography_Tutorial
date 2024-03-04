@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #3498db, #2ecc71);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group input[type="file"],
+.input-group input[type="text"],
+.input-group button {
+    margin: 10px 0;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 300px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"] {
+    width: calc(100% - 48px); /* Adjust for padding */
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid #ccc;
+}
+
+button {
+    background: linear-gradient(to bottom right, #2ecc71, #3498db);
+    color: #fff;
+}
+
+button:hover {
+    background: linear-gradient(to bottom right, #29b765, #2980b9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#statusMessage {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}

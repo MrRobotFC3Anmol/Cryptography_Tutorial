@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Encryption Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Media File Encryption Tool</h1>
+        <div class="input-group">
+            <input type="file" id="fileInput">
+        </div>
+        <div class="input-group">
+            <input type="text" id="encryptionKey" placeholder="Enter Encryption Key">
+        </div>
+        <div class="input-group">
+            <button onclick="encryptFile()">Encrypt File</button>
+            <button onclick="decryptFile()">Decrypt File</button>
+        </div>
+        <p id="statusMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
